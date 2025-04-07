@@ -7,7 +7,7 @@ function layout() {
   return (
     <>
     <Header/>
-    <Outlet/>
+    <Outlet/>   {/* /FOR nesting in react router dom  //nesting ke top level pe layout diya he */}
     <Footer/>
 
     
